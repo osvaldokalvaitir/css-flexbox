@@ -21,10 +21,17 @@ body,
   /* Quando for flex-direction: row, o align-items alinha verticalmente e o justify-content alinha horizontalmente */
   /* Quando for flex-direction: column, o align-items alinha horizontalmente e o justify-content alinha verticalmente */
   /* Resumindo: o align-items sempre alinha ao eixo contrário que está o flex-direction e o justify-content no mesmo eixo */
+
+
+  flex-wrap: wrap;
+  /* faz quebra de linha quando não couber, tem as propriedades wrap e wrap-reverse */
+
+  /* align-content: flex-start; */
+  /* é usado para alinhar quando tiver mais de uma linha, tem as mesmas propriedades do justify-content */
 }
 
 .box {
-  width: 300px;
+  width: 150px;
   height: 60px;
   background: #f00;
   margin: 5px;
@@ -38,6 +45,6 @@ body,
   /* flex: 1 0; */
   /* é igual a flex-grow: 1 + flex-shrink: 0 */
 
-  flex: 1;
+  /* flex: 1; */
   /* é igual a flex-grow: 1 + flex-shrink: 1 */
 }
