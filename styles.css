@@ -23,7 +23,7 @@ body,
   /* Resumindo: o align-items sempre alinha ao eixo contrário que está o flex-direction e o justify-content no mesmo eixo */
 
 
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   /* faz quebra de linha quando não couber, tem as propriedades wrap e wrap-reverse */
 
   /* align-content: flex-start; */
@@ -47,4 +47,19 @@ body,
 
   /* flex: 1; */
   /* é igual a flex-grow: 1 + flex-shrink: 1 */
+}
+
+.red {
+  order: 3;
+  /* serve para alterar a posição dos componentes */
+}
+
+.green {
+  background: #0F0;
+  order: 2;
+}
+
+.blue {
+  background: #00F;
+  order: 0;
 }
