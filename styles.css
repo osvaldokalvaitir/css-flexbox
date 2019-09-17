@@ -7,11 +7,15 @@ body,
 
 #app {
   display: flex;
-  flex-direction: row;
+  /* sempre no componente pai precisa setar display: flex */
+
+  /* flex-direction: row; */
   /* o padrão é row e os mais usados são row, column, row-reverse e column-reverse */
-  align-items: flex-start;
+
+  /* align-items: flex-start; */
   /* o padrão é flex-start e os mais usados são flex-start, center e flex-end */
-  justify-content: flex-start;
+
+  /* justify-content: flex-start; */
   /* o padrão é flex-start e os mais usados são flex-start, center, flex-end, space-between e space-around */
 
   /* Quando for flex-direction: row, o align-items alinha verticalmente e o justify-content alinha horizontalmente */
@@ -20,8 +24,20 @@ body,
 }
 
 .box {
-  width: 60px;
+  width: 300px;
   height: 60px;
   background: #f00;
   margin: 5px;
+
+  /* flex-grow: 1; */
+  /* faz com seja redimensionado para esticar e preencher em todo o componente pai */
+
+  /* flex-shrink: 1; */
+  /* faz com seja redimensionado para espremer e caber em todo o componente pai e flex-shrink: 0 sem efeito */
+
+  /* flex: 1 0; */
+  /* é igual a flex-grow: 1 + flex-shrink: 0 */
+
+  flex: 1;
+  /* é igual a flex-grow: 1 + flex-shrink: 1 */
 }
