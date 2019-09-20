@@ -1,7 +1,6 @@
 # CSS - Flexbox
 
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/css-flexbox/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/css-flexbox.svg)
 ![](https://img.shields.io/github/last-commit/osvaldokalvaitir/css-flexbox.svg?color=red)
 ![](https://img.shields.io/github/languages/top/osvaldokalvaitir/css-flexbox.svg?color=yellow)
 ![](https://img.shields.io/github/languages/count/osvaldokalvaitir/css-flexbox.svg?color=lightgrey)
@@ -43,7 +42,7 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 
 ### Execução do Projeto
 
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/code-editor/visual-studio-code/extensions/live-server.md) e siga `Atalhos do teclado`.
+Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/code-editor/visual-studio-code/extensions/live-server.md) e siga `Atalhos do teclado > Abrir servidor`.
 
 ## Utilizados no Projeto
 
