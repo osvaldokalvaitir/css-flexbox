@@ -31,7 +31,7 @@ Aplicação Twitter usando Flexbox do CSS.
 
 ### Principal
 
-![Principal](/assets/main.png)
+![Principal](/.github/assets/main.png)
 É uma tela estática realizada apenas para a construção do design usando flexbox do css.
 
 ## Desenvolvimento
