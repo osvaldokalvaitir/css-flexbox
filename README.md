@@ -40,7 +40,7 @@ Open terminal:
 # Clone this repo
 git clone https://github.com/osvaldokalvaitir/css-flexbox
 
-# alt+L ou alt+O To open the server in Live Server
+# alt+L ou alt+O In VSCode to open the server in Live Server
 ```
 
 ## :memo: License
