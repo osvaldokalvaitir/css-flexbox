@@ -47,6 +47,8 @@ git clone https://github.com/osvaldokalvaitir/css-flexbox
 # alt+L ou alt+O To open the server in Live Server
 ```
 
+Click to learn more about the tools used: [Live Server](https://github.com/osvaldokalvaitir/awesome/blob/main/src/code-editors/visual-studio-code/extensions/live-server.md).
+
 ## :memo: License
 
 This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
